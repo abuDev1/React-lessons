@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy", sans-serif;
+}
+
+.App {
+  width: 1440px;
+  margin: auto;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  width: 41px;
+  height: 39px;
+}
+
+.Header_button {
+  width: 200px;
+  border: 1px solid #F7941E;
+  font-size: 18px;
+  padding: 10px;
+  color: #F7941E;
+  background-color: #C4C4C4;
+  border-radius: 8px;
+}
+
+.Menu {
+  width: 500px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocks_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.left_block_txt {
+    width: 50%;
+    padding-top: 150px;
+    text-align: center;
+    background-color: #F1F1F2;
+}
+
+.left_block_txt > p {
+  width: 441px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.left_block_txt > h2 {
+  font-size: 56px;
+}
+
+.right_block_img {
+  width: 50%;
+}
+
+.right_block_img > img {
+  display: block;
+  width: 100%;
+}
+
+.Content {
+  margin-top: 40px;
+}
+
+.contentButtonClass {
+  background-color: #F7941E;
+  color: white;
+  width: 200px;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+.contentButtonClass_2 {
+  color: #F7941E;
+  width: 200px;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #F7941E;
+  border-radius: 8px;
+}
+
+.Gifts_Occasions {
+  margin-top: 50px;
+}
+
+.Gifts_Occasions > h2 {
+  text-align: center;
+}
+
+.Gifts_Occasions > span {
+  display: block;
+  text-align: center;
+}
+
+.card_body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.occasion-card-item {
+  height: 435px;
+  border: 1px solid black;
+}
+
+.card-name {
+  padding: 15px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.see-more > a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px;
+}
